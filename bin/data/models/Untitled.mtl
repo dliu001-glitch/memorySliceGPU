@@ -1,0 +1,1433 @@
+# Blender 4.5.1 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl Lime__label.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_60.jpg
+
+newmtl Lime__om_cn_100.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_8.jpg
+
+newmtl Lime__om_cn_102.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_67.png
+
+newmtl Lime__om_cn_103.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_67.png
+
+newmtl Lime__om_cn_104.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_67.png
+
+newmtl Lime__om_cn_106.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_7.jpg
+
+newmtl Lime__om_cn_107.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.992200 0.066700 0.219600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_108.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_11.jpg
+
+newmtl Lime__om_cn_109.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_12.jpg
+
+newmtl Lime__om_cn_111.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_59.png
+
+newmtl Lime__om_cn_112.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_58.png
+
+newmtl Lime__om_cn_113.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_24.png
+
+newmtl Lime__om_cn_114.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_1.png
+
+newmtl Lime__om_cn_115.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_107.png
+
+newmtl Lime__om_cn_116.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_15.png
+
+newmtl Lime__om_cn_117.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_25.jpg
+
+newmtl Lime__om_cn_118.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_25.jpg
+
+newmtl Lime__om_cn_119.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_26.png
+
+newmtl Lime__om_cn_120.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_8_om.cn_26.png.jpg
+
+newmtl Lime__om_cn_121.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.211800
+illum 1
+
+newmtl Lime__om_cn_122.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_27.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_28.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Bump_10_om.cn_27.jpg.jpg
+
+newmtl Lime__om_cn_123.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.039200 0.047100 0.098000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_11_om.cn_28.jpg.jpg
+
+newmtl Lime__om_cn_125.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_12_om.cn_28.jpg.jpg
+
+newmtl Lime__om_cn_126.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_30.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_31.jpg
+
+newmtl Lime__om_cn_127.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.847100 0.847100 0.847100
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_128.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_129.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.388200 0.607800 0.513700
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_14_om.cn_31.jpg.jpg
+
+newmtl Lime__om_cn_131.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_15_om.cn_31.jpg.jpg
+
+newmtl Lime__om_cn_132.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.125500
+illum 1
+
+newmtl Lime__om_cn_133.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_32.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_18_om.cn_32.jpg.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Bump_17_om.cn_32.jpg.jpg
+
+newmtl Lime__om_cn_134.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.207800 0.521600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_19_om.cn_32.jpg.jpg
+
+newmtl Lime__om_cn_136.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.890200 0.890200 0.890200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.015700
+illum 1
+
+newmtl Lime__om_cn_137.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.023500 0.254900 0.615700
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_138.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.737300 0.913700 0.996100
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.003900
+illum 1
+
+newmtl Lime__om_cn_141.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_33.jpg
+
+newmtl Lime__om_cn_142.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_35.jpg
+
+newmtl Lime__om_cn_143.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_39.jpg
+
+newmtl Lime__om_cn_144.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_38.jpg
+
+newmtl Lime__om_cn_145.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_69.png
+
+newmtl Lime__om_cn_147.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_108.png
+
+newmtl Lime__om_cn_150.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_40.jpg
+
+newmtl Lime__om_cn_153.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_41.jpg
+
+newmtl Lime__om_cn_154.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_20_om.cn_108.png.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+
+newmtl Lime__om_cn_156.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_36.jpg
+
+newmtl Lime__om_cn_157.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_37.jpg
+
+newmtl Lime__om_cn_158.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Lime._om.cn_42.png
+map_d C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Lime._om.cn_42.png
+
+newmtl Lime__om_cn_159.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_47.jpg
+
+newmtl Lime__om_cn_160.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_46.jpg
+
+newmtl Lime__om_cn_163.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_45.jpg
+
+newmtl Lime__om_cn_164.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.949000 0.949000 0.949000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_167.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_13.jpg
+map_Ke C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_13.jpg
+
+newmtl Lime__om_cn_168.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_81.jpg
+
+newmtl Lime__om_cn_169.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_82.jpg
+
+newmtl Lime__om_cn_170.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_83.jpg
+
+newmtl Lime__om_cn_171.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.071800 0.078400 0.072200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.107100
+illum 1
+
+newmtl Lime__om_cn_172.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.117600 0.560800 0.160800
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.251000
+illum 1
+
+newmtl Lime__om_cn_173.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.819600 0.380400 0.039200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_174.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_73.png
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_74.png
+
+newmtl Lime__om_cn_175.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.231400
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_28_om.cn_76.png.jpg
+
+newmtl Lime__om_cn_176.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_50.png
+
+newmtl Lime__om_cn_177.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_55.png
+
+newmtl Lime__om_cn_178.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_15.png
+
+newmtl Lime__om_cn_179.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_50.png
+
+newmtl Lime__om_cn_180.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_105.png
+
+newmtl Lime__om_cn_181.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_105.png
+
+newmtl Lime__om_cn_182.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_65.png
+
+newmtl Lime__om_cn_183.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_62.png
+
+newmtl Lime__om_cn_184.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_54.png
+
+newmtl Lime__om_cn_185.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_54.png
+
+newmtl Lime__om_cn_186.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_63.png
+
+newmtl Lime__om_cn_187.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_56.png
+
+newmtl Lime__om_cn_188.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_70.png
+
+newmtl Lime__om_cn_189.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_1.png
+
+newmtl Lime__om_cn_190.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_72.png
+
+newmtl Lime__om_cn_191.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_71.png
+
+newmtl Lime__om_cn_192.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_72.png
+
+newmtl Lime__om_cn_193.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_49.png
+
+newmtl Lime__om_cn_194.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_24_om.cn_34.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+
+newmtl Lime__om_cn_196.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_61.png
+
+newmtl Lime__om_cn_197.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_25_om.cn_34.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+
+newmtl Lime__om_cn_199.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_84.png
+
+newmtl Lime__om_cn_200.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_26_om.cn_84.png.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+
+newmtl Lime__om_cn_202.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_84.png
+
+newmtl Lime__om_cn_203.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_27_om.cn_84.png.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_34.jpg
+
+newmtl Lime__om_cn_206.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_68.png
+
+newmtl Lime__om_cn_207.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_68.png
+
+newmtl Lime__om_cn_209.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_93.png
+
+newmtl Lime__om_cn_210.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_212.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_66.png
+
+newmtl Lime__om_cn_213.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_215.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_57.png
+
+newmtl Lime__om_cn_219.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_53.png
+
+newmtl Lime__om_cn_223.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_2.png
+
+newmtl Lime__om_cn_224.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_43.jpg
+
+newmtl Lime__om_cn_225.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_44.jpg
+
+newmtl Lime__om_cn_227.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_64.png
+
+newmtl Lime__om_cn_228.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_106.png
+
+newmtl Lime__om_cn_229.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_3.jpg
+
+newmtl Lime__om_cn_31.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.023500 0.023500 0.027500
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_32.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_75.jpg
+
+newmtl Lime__om_cn_33.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.098000 0.109800 0.180400
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_35.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_76.png
+
+newmtl Lime__om_cn_36.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_76.png
+
+newmtl Lime__om_cn_37.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_73.png
+
+newmtl Lime__om_cn_39.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_72.png
+
+newmtl Lime__om_cn_40.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_17.tif
+
+newmtl Lime__om_cn_41.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_21_om.cn_17.tif.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_22_om.cn_17.tif.jpg
+
+newmtl Lime__om_cn_43.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.968600 0.968600 0.968600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.019600
+illum 1
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_18.jpg
+
+newmtl Lime__om_cn_44.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.968600 0.968600 0.968600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.019600
+illum 1
+
+newmtl Lime__om_cn_45.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.051000 0.309800 0.643100
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Bump_29_om.cn_16.jpg
+
+newmtl Lime__om_cn_46.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.019600
+illum 1
+
+newmtl Lime__om_cn_47.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_19.jpg
+
+newmtl Lime__om_cn_49.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_20.tif
+
+newmtl Lime__om_cn_50.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_2_om.cn_20.tif.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_3_om.cn_20.tif.jpg
+
+newmtl Lime__om_cn_52.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_21.tif
+
+newmtl Lime__om_cn_53.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_0_om.cn_21.tif.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_1_om.cn_21.tif.jpg
+
+newmtl Lime__om_cn_55.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_22.tif
+
+newmtl Lime__om_cn_56.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_4_om.cn_22.tif.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_5_om.cn_22.tif.jpg
+
+newmtl Lime__om_cn_58.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_23.tif
+
+newmtl Lime__om_cn_59.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.490200 0.454900 0.517600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.066700
+illum 1
+
+newmtl Lime__om_cn_60.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.372300 0.231400
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_61.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.066700
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Diff_6_om.cn_23.tif.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._Refl_7_om.cn_23.tif.jpg
+
+newmtl Lime__om_cn_63.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_77.jpg
+map_refl C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_78.jpg
+map_Bump C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_80.jpg
+
+newmtl Lime__om_cn_64.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_91.jpg
+map_d C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_92.jpg
+
+newmtl Lime__om_cn_65.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.474500 0.325500 0.207800
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_66.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.690200 0.690200 0.690200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lime__om_cn_67.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_89.jpg
+map_d C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_90.jpg
+
+newmtl Lime__om_cn_77.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_79.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_80.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_82.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_83.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 1
+
+newmtl Lime__om_cn_92.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_4.png
+
+newmtl Lime__om_cn_93.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_5.png
+
+newmtl Lime__om_cn_94.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_110.jpg
+
+newmtl Lime__om_cn_95.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_109.jpg
+
+newmtl Lime__om_cn_96.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_48.png
+
+newmtl Lime__om_cn_97.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_6.jpg
+
+newmtl Lime__om_cn_98.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_10.jpg
+
+newmtl Lime__om_cn_99.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/admin/Downloads/y0101/2024零食饮料3D模型/06/C:/Users/Administrator/Desktop/C4D/maps/Lime._om.cn_9.jpg

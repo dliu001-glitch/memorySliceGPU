@@ -1,0 +1,65 @@
+# Visual Studio 生成的文件和缓存
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+
+# 编译输出和调试文件
+bin/*.exe
+bin/*.dll
+bin/*.pdb
+bin/*.ilk
+bin/*.exp
+bin/*.lib
+bin/*.obj
+bin/*.iobj
+bin/*.ipdb
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio 预编译头和缓存
+*.pch
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+*.ipch
+
+# 保留重要的资源文件
+!bin/data/**
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*~
