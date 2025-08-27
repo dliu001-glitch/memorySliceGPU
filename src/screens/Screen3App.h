@@ -1,71 +1,67 @@
 #pragma once
-#include "CubeMesh.h"
+
 #include "DataManager.h"
-#include "ModelLoader.h"
-#include "geometryData.h"
 #include "ofMain.h"
 #include "ofxGui.h"
 
 class Screen3App : public ofBaseApp {
 public:
 	Screen3App();
-
+	~Screen3App() { cleanupTBO(); }
 	void setup();
 	void update();
 	void draw();
 	void keyPressed(int key);
+	void keyReleased(int key) { }
+	void mouseMoved(int x, int y) { }
+	void mouseDragged(int x, int y, int button) { }
+	void mousePressed(int x, int y, int button) { }
+	void mouseReleased(int x, int y, int button) { }
+	void windowResized(int w, int h) { handleWindowResize(w, h); }
 
 private:
-	// === 核心组件 ===
+	// Core components
 	DataManager & dataManager;
 	ofEasyCam cam;
+	ofShader fusionShader;
 	ofFbo finalFBO;
 
-	// === 屏幕空间融合 ===
-	ofShader screenSpaceMixShader;
-	ofPlanePrimitive fullScreenQuad;
+	// TBO for mesh fusion
+	GLuint screen1PositionTBO;
+	GLuint screen1PositionTexture; // The texture object for TBO
+	bool tboInitialized;
 
-	// === 位置纹理数据 ===
-	ofTexture screen1PosTexture, screen1DepthTexture;
-	ofTexture screen2PosTexture, screen2DepthTexture;
-	bool hasValidTextures = false;
+	// Driving mesh (we'll use Screen2's mesh as driver)
+	ofVboMesh drivingMesh;
+	bool hasDrivingMesh;
 
-	// === GUI控制 ===
+	// GUI controls
 	ofxPanel gui;
-	bool showGui = true;
+	ofParameter<float> mixRatio;
+	ofParameter<bool> enableFusion;
+	ofParameter<bool> showDebugInfo;
+	bool showGui;
 
-	// 混合控制
-	ofParameter<float> guiMixRatio;
-	ofParameter<bool> guiEnableModel;
-	ofParameter<bool> guiEnableGeometry;
-	ofParameter<float> guiModelInfluence;
-	ofParameter<float> guiGeometryInfluence;
-
-	// 视觉控制
-	ofParameter<bool> guiShowScreen1;
-	ofParameter<bool> guiShowScreen2;
-	ofParameter<ofColor> guiMixColor;
-
-	// === 光照参数（用于重新计算光照） ===
-	LightingParams lightingParams;
-
-	// === 内部方法 ===
+	// Setup functions
 	void setupCamera();
-	void setupShaders();
+	void setupShader();
 	void setupFBO();
 	void setupGui();
-	void setupFullScreenQuad();
 
-	void updatePositionTextures();
-	void renderScreenSpaceMix();
-	void handleWindowResize(int w, int h);
+	// TBO management
+	void setupTBO();
+	void updateScreen1TBO();
+	void cleanupTBO();
 
-	ofVec3f calculateLightPosition();
-	string getDebugInfo();
+	// Mesh management
+	void updateDrivingMesh();
+
+	// Rendering
+	void renderFusion();
 	void renderUI();
-	void resetAllParameters();
-	void logSystemInfo();
 
-	// === 状态变量 ===
-	float elapsedTime = 0.0f;
+	// Utility
+	string getDebugInfo();
+	void handleWindowResize(int w, int h);
+	void logSystemInfo();
 };

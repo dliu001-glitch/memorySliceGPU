@@ -15,6 +15,7 @@ public:
 	void update() override;
 	void draw() override;
 	void keyPressed(int key) override;
+	ofFbo & getPositionFBO() { return positionFBO; }
 
 private:
 	// === ºËÐÄ×é¼þ ===

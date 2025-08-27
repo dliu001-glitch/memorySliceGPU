@@ -128,17 +128,13 @@ void Screen1App::update() {
 	updateRotation();
 	renderToPositionTexture();
 
-	 if (isModelLoaded) {
-		ofMatrix4x4 modelMatrix = getModelMatrix();
-		dataManager.setScreen1ModelMatrix(modelMatrix);
-		dataManager.setScreen1Mesh(loadedModel); // 共享实际mesh数据
-		dataManager.setCurrentModelPath(currentModelPath); // 保留路径用于调试
-		// 调试输出（只输出一次）
-		static bool debugPrinted = false;
-		if (!debugPrinted) {
-			ofLogNotice("Screen1App") << "Sharing model data: " << currentModelPath;
-			ofLogNotice("Screen1App") << "Model vertices: " << loadedModel.getNumVertices();
-			debugPrinted = true;
+	if (isModelLoaded) {
+		dataManager.setScreen1Mesh(loadedModel);
+		dataManager.setScreen1ModelMatrix(getModelMatrix());
+
+		static int frameCount = 0;
+		if (frameCount++ % 120 == 0) {
+			ofLogNotice("Screen1App") << "Sharing model with " << loadedModel.getNumVertices() << " vertices";
 		}
 	}
 }
@@ -485,54 +481,128 @@ void Screen1App::setupPositionRendering() {
 
 	positionFBO.allocate(fboSettings);
 
-	// 加载位置渲染shader
+	// 检查着色器文件是否存在
+	string vertPath = "shaders/screen1/position.vert";
+	string fragPath = "shaders/screen1/position.frag";
+
+	ofLogNotice("Screen1App") << "Checking position shader files:";
+	ofLogNotice("Screen1App") << "Vert exists: " << ofFile::doesFileExist(vertPath);
+	ofLogNotice("Screen1App") << "Frag exists: " << ofFile::doesFileExist(fragPath);
+
 	if (!positionRenderShader.load("shaders/screen1/position")) {
 		ofLogError("Screen1App") << "Failed to load position render shader!";
+
+		// 输出详细的错误信息
+		ofLogError("Screen1App") << "Vertex shader error: " << positionRenderShader.getShaderSource(GL_VERTEX_SHADER);
+		ofLogError("Screen1App") << "Fragment shader error: " << positionRenderShader.getShaderSource(GL_FRAGMENT_SHADER);
 	} else {
 		ofLogNotice("Screen1App") << "Position render shader loaded successfully";
 	}
+
 }
 
 void Screen1App::renderToPositionTexture() {
-	if (!isModelLoaded || !positionRenderShader.isLoaded()) return;
+	if (!isModelLoaded) {
+		ofLogWarning("Screen1App") << "Position render skipped - no model loaded";
+		return;
+	}
+
+	if (!positionRenderShader.isLoaded()) {
+		ofLogWarning("Screen1App") << "Position render skipped - shader not loaded";
+		return;
+	}
+
+	ofLogNotice("Screen1App") << "Position render executing...";
+
+	//if (!isModelLoaded || !positionRenderShader.isLoaded()) return;
 
 	positionFBO.begin();
+
 	ofClear(0, 0, 0, 0);
 
-	cam.begin();
-
-	positionRenderShader.begin();
-
-	// 修正矩阵计算
-	ofMatrix4x4 modelMatrix = getModelMatrix();
-	ofMatrix4x4 viewMatrix = cam.getModelViewMatrix();
-	ofMatrix4x4 projectionMatrix = cam.getProjectionMatrix();
-
-	// 正确的矩阵组合方式
-	ofMatrix4x4 modelViewMatrix = viewMatrix * modelMatrix;
-	ofMatrix4x4 modelViewProjectionMatrix = projectionMatrix * viewMatrix * modelMatrix;
-
-	positionRenderShader.setUniformMatrix4f("modelMatrix", modelMatrix);
-	positionRenderShader.setUniformMatrix4f("modelViewMatrix", modelViewMatrix);
-	positionRenderShader.setUniformMatrix4f("modelViewProjectionMatrix", modelViewProjectionMatrix);
-
-	// 渲染模型
-	loadedModel.draw();
-
-	positionRenderShader.end();
-	cam.end();
-	positionFBO.end();
-
-	// 共享纹理给DataManager
-	dataManager.setScreen1PositionTexture(
-		positionFBO.getTexture(),
-		positionFBO.getDepthTexture());
-
-
+	// 检查模型属性
 	static bool debugPrinted = false;
 	if (!debugPrinted) {
-		ofLogNotice("Screen1App") << "Position rendering setup - Shader loaded: " << positionRenderShader.isLoaded();
-		ofLogNotice("Screen1App") << "Position rendering setup - Model loaded: " << isModelLoaded;
+		ofLogNotice("Screen1App") << "Model attributes:";
+		ofLogNotice("Screen1App") << "Has vertices: " << loadedModel.hasVertices();
+		ofLogNotice("Screen1App") << "Has normals: " << loadedModel.hasNormals();
+		ofLogNotice("Screen1App") << "Has texcoords: " << loadedModel.hasTexCoords();
+		ofLogNotice("Screen1App") << "Has colors: " << loadedModel.hasColors();
 		debugPrinted = true;
 	}
+
+	//cam.begin();
+
+	//positionRenderShader.begin();
+
+	//// 检查shader是否真正激活
+	//GLint currentProgram;
+	//glGetIntegerv(GL_CURRENT_PROGRAM, &currentProgram);
+	//ofLogNotice("Screen1App") << "Active shader program ID: " << currentProgram;
+
+	//// 修正矩阵计算
+	//ofMatrix4x4 modelMatrix = getModelMatrix();
+	//ofMatrix4x4 viewMatrix = cam.getModelViewMatrix();
+	//ofMatrix4x4 projectionMatrix = cam.getProjectionMatrix();
+
+	//// 正确的矩阵组合方式
+	//ofMatrix4x4 modelViewMatrix = viewMatrix * modelMatrix;
+	//ofMatrix4x4 modelViewProjectionMatrix = projectionMatrix * viewMatrix * modelMatrix;
+
+	//positionRenderShader.setUniformMatrix4f("modelMatrix", modelMatrix);
+	//positionRenderShader.setUniformMatrix4f("modelViewMatrix", modelViewMatrix);
+	//positionRenderShader.setUniformMatrix4f("modelViewProjectionMatrix", modelViewProjectionMatrix);
+
+	////// 渲染模型
+	//loadedModel.draw();
+
+	//positionRenderShader.end();
+	//cam.end();
+	ofSetColor(0, 255, 0);
+	ofDrawCircle(100, 100, 50);
+
+	positionFBO.end();
+
+	// 保存FBO内容检查
+	static bool saved = false;
+	if (!saved) {
+		ofPixels pixels;
+		positionFBO.getTexture().readToPixels(pixels);
+		ofSaveImage(pixels, "debug_simple_circle.png");
+		saved = true;
+		ofLogNotice("Screen1App") << "Saved simple circle test";
+	}
+
+	// 保存FBO内容到文件
+	//static bool saved = false;
+	//if (!saved) {
+	//	positionFBO.getTexture().readToPixels(pixels);
+	//	ofSaveImage(pixels, "debug_screen1_position.png");
+	//	saved = true;
+	//	ofLogNotice("Screen1App") << "Saved position FBO to debug_screen1_position.png";
+	//}
+
+	//static int frameCount = 0;
+	//if (frameCount++ % 60 == 0) { // 每60帧输出一次
+	//	ofLogNotice("Screen1App") << "Position texture rendered - Model vertices: " << loadedModel.getNumVertices();
+	//}
+
+	//// 检查FBO纹理状态
+	//ofTexture & fboTex = positionFBO.getTexture();
+	//ofLogNotice("Screen1App") << "FBO texture allocated: " << fboTex.isAllocated();
+	//ofLogNotice("Screen1App") << "FBO texture ID: " << fboTex.getTextureData().textureID;
+	//ofLogNotice("Screen1App") << "FBO texture size: " << fboTex.getWidth() << "x" << fboTex.getHeight();
+
+	//// 共享纹理给DataManager
+	//dataManager.setScreen1PositionTexture(
+	//	positionFBO.getTexture(),
+	//	positionFBO.getDepthTexture());
+
+
+	//static bool debugPrinted = false;
+	//if (!debugPrinted) {
+	//	ofLogNotice("Screen1App") << "Position rendering setup - Shader loaded: " << positionRenderShader.isLoaded();
+	//	ofLogNotice("Screen1App") << "Position rendering setup - Model loaded: " << isModelLoaded;
+	//	debugPrinted = true;
+	//}
 }

@@ -190,6 +190,15 @@ void Screen2App::update() {
 	dataManager.setDissipationParams(dissipationParams);
 	dataManager.setLightingParams(lightingParams);
 	dataManager.setFlowFieldConfig(flowFieldConfig);
+
+	// Share mesh data with DataManager for Screen3
+	dataManager.setScreen2BaseMesh(cubeMesh.getMesh());
+
+	// Add debug output to verify sharing
+	static int frameCount = 0;
+	if (frameCount++ % 120 == 0) { // Every 2 seconds
+		ofLogNotice("Screen2App") << "Sharing mesh with " << cubeMesh.getMesh().getNumVertices() << " vertices";
+	}
 }
 
 //--------------------------------------------------------------
@@ -459,13 +468,21 @@ void Screen2App::renderToPositionTexture() {
 	if (!positionRenderShader.isLoaded()) return;
 
 	positionFBO.begin();
-	ofClear(0, 0, 0, 0); // 清除为透明
+	ofClear(0, 0, 0, 0); // 透明背景
 
 	cam.begin();
-
 	positionRenderShader.begin();
 
-	// 设置所有几何变形参数（复用现有参数设置逻辑）
+	// 设置基础矩阵
+	ofMatrix4x4 modelMatrix; // 单位矩阵
+	ofMatrix4x4 modelViewMatrix = cam.getModelViewMatrix();
+	ofMatrix4x4 modelViewProjectionMatrix = cam.getModelViewProjectionMatrix();
+
+	positionRenderShader.setUniformMatrix4f("modelMatrix", modelMatrix);
+	positionRenderShader.setUniformMatrix4f("modelViewMatrix", modelViewMatrix);
+	positionRenderShader.setUniformMatrix4f("modelViewProjectionMatrix", modelViewProjectionMatrix);
+
+	// 设置几何变形参数
 	positionRenderShader.setUniform1f("time", elapsedTime);
 	positionRenderShader.setUniform1f("noiseScale", meshConfig.noiseScale);
 	positionRenderShader.setUniform1f("noiseStrength", meshConfig.noiseStrength);
@@ -473,41 +490,34 @@ void Screen2App::renderToPositionTexture() {
 	positionRenderShader.setUniform1f("breathAmount", meshConfig.breathAmount);
 	positionRenderShader.setUniform1f("flowFieldStrength", meshConfig.flowFieldStrength);
 
-	// 流场中心点
+	// 设置流场中心点
 	positionRenderShader.setUniform3f("flowCenter1", flowFieldConfig.flowCenter1.x, flowFieldConfig.flowCenter1.y, flowFieldConfig.flowCenter1.z);
 	positionRenderShader.setUniform3f("flowCenter2", flowFieldConfig.flowCenter2.x, flowFieldConfig.flowCenter2.y, flowFieldConfig.flowCenter2.z);
 	positionRenderShader.setUniform3f("flowCenter3", flowFieldConfig.flowCenter3.x, flowFieldConfig.flowCenter3.y, flowFieldConfig.flowCenter3.z);
+	positionRenderShader.setUniform3f("flowCenter4", flowFieldConfig.flowCenter4.x, flowFieldConfig.flowCenter4.y, flowFieldConfig.flowCenter4.z);
+	positionRenderShader.setUniform3f("flowCenter5", flowFieldConfig.flowCenter5.x, flowFieldConfig.flowCenter5.y, flowFieldConfig.flowCenter5.z);
+	positionRenderShader.setUniform3f("flowCenter6", flowFieldConfig.flowCenter6.x, flowFieldConfig.flowCenter6.y, flowFieldConfig.flowCenter6.z);
+	positionRenderShader.setUniform3f("flowCenter7", flowFieldConfig.flowCenter7.x, flowFieldConfig.flowCenter7.y, flowFieldConfig.flowCenter7.z);
+	positionRenderShader.setUniform3f("flowCenter8", flowFieldConfig.flowCenter8.x, flowFieldConfig.flowCenter8.y, flowFieldConfig.flowCenter8.z);
 
-	// 破碎参数
-	positionRenderShader.setUniform1f("fractureAmount", fractureParams.fractureAmount);
+	// 设置破碎效果参数
+	positionRenderShader.setUniform1f("fractureAmount", fractureParams.enableFracture ? fractureParams.fractureAmount : 0.0f);
 	positionRenderShader.setUniform1f("fractureScale", fractureParams.fractureScale);
 	positionRenderShader.setUniform1f("explosionRadius", fractureParams.explosionRadius);
 	positionRenderShader.setUniform1f("rotationIntensity", fractureParams.rotationIntensity);
 	positionRenderShader.setUniform1f("separationForce", fractureParams.separationForce);
 
-	// 矩阵设置
-	ofMatrix4x4 modelViewProjectionMatrix = cam.getModelViewProjectionMatrix();
-	ofMatrix4x4 modelViewMatrix = cam.getModelViewMatrix();
+	// 设置消散效果参数
+	positionRenderShader.setUniform1f("dissipationAmount", dissipationParams.enableDissipation ? dissipationParams.dissipationAmount : 0.0f);
+	positionRenderShader.setUniform1f("dissipationScale", dissipationParams.dissipationScale);
+	positionRenderShader.setUniform1f("dissipationSpeed", dissipationParams.dissipationSpeed);
+	positionRenderShader.setUniform1f("cloudThreshold", dissipationParams.cloudThreshold);
+	positionRenderShader.setUniform1f("edgeSoftness", dissipationParams.edgeSoftness);
 
-	positionRenderShader.setUniformMatrix4f("modelViewProjectionMatrix", modelViewProjectionMatrix);
-	positionRenderShader.setUniformMatrix4f("modelViewMatrix", modelViewMatrix);
-
-	// 渲染几何
+	// 渲染几何体
 	cubeMesh.getMesh().draw();
 
 	positionRenderShader.end();
 	cam.end();
 	positionFBO.end();
-
-	// 共享纹理给DataManager
-	dataManager.setScreen2PositionTexture(
-		positionFBO.getTexture(),
-		positionFBO.getDepthTexture());
-
-
-	static bool debugPrinted = false;
-	if (!debugPrinted) {
-		ofLogNotice("Screen2App") << "Position rendering setup - Shader loaded: " << positionRenderShader.isLoaded();
-		debugPrinted = true;
-	}
 }

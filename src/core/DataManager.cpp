@@ -249,6 +249,8 @@ string DataManager::getCurrentModelPath() const {
 }
 void DataManager::setScreen1PositionTexture(const ofTexture & posTexture, const ofTexture & depthTexture) {
 	std::lock_guard<std::mutex> lock(dataMutex);
+	ofLogNotice("DataManager") << "Receiving Screen1 texture - ID: " << posTexture.getTextureData().textureID;
+	ofLogNotice("DataManager") << "Texture allocated: " << posTexture.isAllocated();
 	screen1PosTexture = posTexture;
 	screen1DepthTexture = depthTexture;
 	hasScreen1PosData = true;

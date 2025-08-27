@@ -26,7 +26,6 @@ uniform float shininess;
 uniform int showScreen1Debug;
 uniform int showScreen2Debug;
 
-in vec2 vTexCoord;
 out vec4 outputColor;
 
 void main() {

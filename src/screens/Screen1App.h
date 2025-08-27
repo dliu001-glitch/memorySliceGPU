@@ -16,6 +16,7 @@ public:
 	void draw() override;
 	void keyPressed(int key) override;
 	void dragEvent(ofDragInfo dragInfo) override;
+	ofFbo & getPositionFBO() { return positionFBO; }
 
 private:
 	// === ºËÐÄ×é¼þ ===
@@ -86,4 +87,6 @@ private:
 
 	void setupPositionRendering();
 	void renderToPositionTexture();
+
+	ofPixels pixels;
 };

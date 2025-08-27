@@ -1,13 +1,18 @@
 #version 150
 
-// 从vertex shader传来的变形后世界坐标
-in vec3 worldPosition;
+uniform mat4 modelMatrix;
+uniform mat4 modelViewMatrix; 
+uniform mat4 modelViewProjectionMatrix;
 
-// 输出变形后的世界位置到纹理
-out vec4 outputPosition;
+in vec4 position;
+in vec3 normal;
+
+out vec3 worldPosition;
+out vec3 worldNormal;
 
 void main() {
-    // 将变形后的世界坐标存储到RGB通道
-    // A通道设置为1.0表示这是有效的像素
-    outputPosition = vec4(worldPosition.x, worldPosition.y, worldPosition.z, 1.0);
+    vec4 worldPos4 = modelMatrix * position;
+    worldPosition = worldPos4.xyz;
+    worldNormal = normalize((modelMatrix * vec4(normal, 0.0)).xyz);
+    gl_Position = modelViewProjectionMatrix * position;
 }
